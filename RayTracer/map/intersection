@@ -1,0 +1,58 @@
+<Objects>
+	<Object>
+		<Coords>0.0, 0.0, 0.0</Coords>
+		<Camera>
+			<Direction>0.0, 0.0, -1.0</Direction>
+		</Camera>
+	</Object>
+	<Object>
+		<Coords>-5.0, 10.0, 80.0</Coords>
+		<Light>
+			<Color>1.0, 1.0, 1.0</Color>
+		</Light>
+	</Object>
+	<Object>
+		<Coords>0.0, 0.0, -50.0</Coords>
+		<RotateY>-12.0</RotateY>
+		<RotateX>-28.0</RotateX>
+		<Solid Object>
+			<Refractive index>1.55</Refractive index>
+			<Binary Operator>
+				<Intersection></Intersection>
+				<Left>
+					<Optics>
+						<Matte color>1.0, 1.0, 0.5</Matte color>
+						<Gloss color>0, 0, 0</Gloss color>
+						<Opacity>1.0</Opacity>
+					</Optics>
+					<Coords>-0.5, 0.0, 0.0</Coords>
+					<Refractive index>1.55</Refractive index>
+					<Sphere>
+						<Ray>1.0</Ray>
+					</Sphere>
+				</Left>
+				<Right>
+					<Optics>
+						<Matte color>1.0, 0.5, 1.0</Matte color>
+						<Gloss color>0, 0, 0</Gloss color>
+						<Opacity>1.0</Opacity>
+					</Optics>
+					<Coords>0.5, 0.0, 0.0</Coords>
+					<Refractive index>1.55</Refractive index>
+					<Sphere>
+						<Ray>1.0</Ray>
+					</Sphere>
+				</Right>
+			</Binary Operator>
+		</Solid Object>
+	</Object>
+</Objects>
+
+<Scene>
+	<Background color>0, 0, 0</Background color>
+	<Ambiant refraction>1.0</Ambiant refraction>
+	<Zoom>25.0</Zoom>
+	<Antialiasing>2</Antialiasing>
+	<Width>300</Width>
+	<Height>300</Height>
+</Scene>

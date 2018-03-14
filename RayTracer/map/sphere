@@ -1,0 +1,36 @@
+<Objects>
+	<Object>
+		<Coords>0.0, 0.0, 0.0</Coords>
+		<Camera>
+			<Direction>0.0, 0.0, -1.0</Direction>
+		</Camera>
+	</Object>
+	<Object>
+		<Coords>-30.0, 120.0, 10.0</Coords>
+		<Light>
+			<Color>0.5, 1.0, 0.3</Color>
+		</Light>
+	</Object>
+	<Object>
+		<Coords>0.0, 0.0, -40.0</Coords>
+		<Solid Object>
+			<Optics>
+				<Matte color>0.6, 0.2, 0.2</Matte color>
+				<Gloss color>0, 0, 0</Gloss color>
+				<Opacity>1.0</Opacity>
+			</Optics>
+			<Refractive index>1.55</Refractive index>
+			<Sphere>
+				<Ray>5.5</Ray>
+			</Sphere>
+		</Solid Object>
+	</Object>
+</Objects>
+
+<Scene>
+	<Background color>0, 0, 0</Background color>
+	<Ambiant refraction>1.0</Ambiant refraction>
+	<Zoom>3.0</Zoom>
+	<Width>400</Width>
+	<Height>400</Height>
+</Scene>

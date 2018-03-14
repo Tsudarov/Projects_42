@@ -1,0 +1,117 @@
+<Objects>
+	<Object>
+		<Coords>0.0, 0.0, 0.0</Coords>
+		<Camera>
+			<Direction>0.0, 0.0, -1.0</Direction>
+		</Camera>
+	</Object>
+	<Object>
+		<Coords>20.0, 20.0, 80.0</Coords>
+		<Light>
+			<Color>0.5, 0.1, 0.1, 0.15</Color>
+		</Light>
+	</Object>
+	<Object>
+		<Coords>100.0, 120.0, -70.0</Coords>
+		<Light>
+			<Color>0.2, 0.5, 0.4</Color>
+		</Light>
+	</Object>
+	<Object>
+		<Coords>3.0, 13.0, 80.0</Coords>
+		<Light>
+			<Color>0.6, 0.5, 0.3, 1.20</Color>
+		</Light>
+	</Object>
+	<Object>
+		<Coords>0.0, 0.0, -160.0</Coords>
+		<Solid Object>
+			<RotateX>-10.0</RotateX>
+			<RotateY>-15.0</RotateY>
+			<Optics>
+				<Matte color>0.5, 0.5, 0.5</Matte color>
+				<Gloss color>0, 0, 0</Gloss color>
+				<Opacity>1.0</Opacity>
+			</Optics>
+			<Refractive index>1.55</Refractive index>
+			<Binary Operator>
+				<Left>
+					<Optics>
+						<Matte color>0.5, 0.5, 0.5</Matte color>
+						<Gloss color>0, 0, 0</Gloss color>
+						<Opacity>1.0</Opacity>
+					</Optics>
+					<Refractive index>1.55</Refractive index>
+					<Solid Object Reorientable>
+					       <Cuboid>
+							<Width>8.0</Width>
+							<Depth>16.0</Depth>
+							<Height>8.0</Height>
+						</Cuboid>
+					</Solid Object Reorientable>
+				</Left>
+				<Right>
+					<Binary Operator>
+						<Union></Union>
+						<Left>
+							<Coords>0.0, 7.5, 0.0</Coords>
+							<Optics>
+								<Matte color>0.5, 0.5, 0.5</Matte color>
+								<Gloss color>0, 0, 0</Gloss color>
+								<Opacity>1.0</Opacity>
+							</Optics>
+							<Refractive index>1.55</Refractive index>
+							<Solid Object Reorientable>
+					       		       	<Cuboid>
+									<Width>6.0</Width>
+									<Depth>6.5</Depth>
+									<Height>8.01</Height>
+								</Cuboid>
+							</Solid Object Reorientable>
+						</Left>
+						<Right>
+							<Coords>0.0, -7.5, 0.0</Coords>
+							<Optics>
+								<Matte color>0.5, 0.5, 0.5</Matte color>
+								<Gloss color>0, 0, 0</Gloss color>
+								<Opacity>1.0</Opacity>
+							</Optics>
+							<Refractive index>1.55</Refractive index>
+							<Solid Object Reorientable>
+				       			       	<Cuboid>
+									<Width>6.0</Width>
+									<Depth>6.5</Depth>
+									<Height>8.01</Height>
+								</Cuboid>
+							</Solid Object Reorientable>
+						</Right>
+					</Binary Operator>
+				</Right>
+				<Difference></Difference>
+			</Binary Operator>
+		</Solid Object>
+	</Object>
+	<Object>
+		<Coords>10.0, 3.0, -147.0</Coords>
+		<Solid Object>
+			<Optics>
+				<Matte color>0.6, 0.4, 0.45</Matte color>
+				<Gloss color>0, 0, 0</Gloss color>
+				<Opacity>1.0</Opacity>
+			</Optics>
+			<Refractive index>1.55</Refractive index>
+			<Sphere>
+				<Ray>3.5</Ray>
+			</Sphere>
+		</Solid Object>
+	</Object>
+</Objects>
+
+<Scene>
+	<Background color>2.59e-06, 3.15e-06, 2.59e-06</Background color>
+	<Ambiant refraction>1.0</Ambiant refraction>
+	<Zoom>4.5</Zoom>
+	<Antialiasing>4</Antialiasing>
+	<Width>320</Width>
+	<Height>400</Height>
+</Scene>

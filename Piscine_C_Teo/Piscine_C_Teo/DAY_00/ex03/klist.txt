@@ -1,0 +1,5 @@
+Credentials cache: API:16135
+        Principal: tsudarov@42.FR
+
+  Issued                Expires               Principal
+Oct 15 18:30:41 2015  Oct 16 04:30:41 2015  krbtgt/42.FR@42.FR

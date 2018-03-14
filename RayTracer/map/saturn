@@ -1,0 +1,101 @@
+<Objects>
+	<Object>
+		<Coords>0.0, 0.0, 0.0</Coords>
+		<Camera>
+			<Direction>0.0, 0.0, -1.0</Direction>
+		</Camera>
+	</Object>
+	<Object>
+		<Coords>30.0, 26.0, 20.0</Coords>
+		<Light>
+			<Color>1.0, 1.0, 1.0</Color>
+		</Light>
+	</Object>
+	<Object>
+		<Coords>0.0, 0.0, -100.0</Coords>
+		<Solid Object>
+			<RotateY>-15.0</RotateY>
+			<RotateX>-83.0</RotateX>
+			<Optics>
+				<Matte color>1.0, 1.0, 0.6, 0.335</Matte color>
+				<Gloss color>0, 0, 0</Gloss color>
+				<Opacity>1.0</Opacity>
+			</Optics>
+			<Refractive index>1.55</Refractive index>
+			<Binary Operator>
+				<Union></Union>
+				<Left>
+					<Refractive index>1.55</Refractive index>
+					<Solid Object Reorientable>
+						<Spheroid>
+							<RayA>9.4597394443572433</RayA>
+							<RayB>9.4597394443572433</RayB>
+							<Height>8.5330403390362584</Height>
+						</Spheroid>
+					</Solid Object Reorientable>
+				</Left>
+				<Right>
+					<Binary Operator>
+						<Union></Union>
+						<Left>
+							<Refractive index>1.55</Refractive index>
+							<Optics>
+								<Matte color>0.768, 0.76, 0.7</Matte color>
+								<Gloss color>0, 0, 0</Gloss color>
+								<Opacity>1.0</Opacity>
+							</Optics>
+							<Solid Object Reorientable>
+							       	<ThinRing>
+									<Inner Radius>14.464</Inner Radius>
+									<Outer Radius>18.480</Outer Radius>
+								</ThinRing>
+							</Solid Object Reorientable>
+						</Left>
+						<Right>
+							<Binary Operator>
+								<Union></Union>
+								<Left>
+									<Refractive index>1.55</Refractive index>
+									<Optics>
+										<Matte color>0.615, 0.627, 0.619</Matte color>
+										<Gloss color>0, 0, 0</Gloss color>
+										<Opacity>1.0</Opacity>
+									</Optics>
+									<Solid Object Reorientable>
+									       	<ThinRing>
+											<Inner Radius>19.213</Inner Radius>
+											<Outer Radius>20.884</Outer Radius>
+										</ThinRing>
+									</Solid Object Reorientable>
+								</Left>
+								<Right>
+									<Refractive index>1.55</Refractive index>
+									<Optics>
+										<Matte color>0.53, 0.549, 0.556</Matte color>
+										<Gloss color>0, 0, 0</Gloss color>
+										<Opacity>1.0</Opacity>
+									</Optics>
+									<Solid Object Reorientable>
+									        <ThinRing>
+											<Inner Radius>21.046</Inner Radius>
+											<Outer Radius>21.486</Outer Radius>
+										</ThinRing>
+									</Solid Object Reorientable>
+								</Right>
+							</Binary Operator>
+						</Right>
+					</Binary Operator>
+				</Right>
+			</Binary Operator>
+		</Solid Object>
+	</Object>
+</Objects>
+
+<Scene>
+	<Background color>0, 0, 0</Background color>
+	<Ambiant refraction>1.0</Ambiant refraction>
+	<Zoom>4.0</Zoom>
+	<Antialiasing>4</Antialiasing>
+	<Width>500</Width>
+	<Height>250</Height>
+</Scene>

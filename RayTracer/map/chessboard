@@ -1,0 +1,96 @@
+<Objects>
+	<Object>
+		<Coords>0.0, 0.0, 0.0</Coords>
+		<Camera>
+			<Direction>0.0, 0.0, -1.0</Direction>
+		</Camera>
+	</Object>
+	<Object>
+		<Coords>-45.0, 25.0, 50.0</Coords>
+		<Light>
+			<Color>0.4, 0.4, 0.1</Color>
+		</Light>
+	</Object>
+	<Object>
+		<Coords>5.0, 90.0, 40.0</Coords>
+		<Light>
+			<Color>0.5, 0.5, 1.5</Color>
+		</Light>
+	</Object>
+	<Object>
+		<Coords>-25.0, 30.0, 40.0</Coords>
+		<Light>
+			<Color>0.3, 0.2, 0.1</Color>
+		</Light>
+	</Object>
+	<Object>
+		<Coords>-1.8, 0.0, -17.0</Coords>
+		<Solid Object>
+			<Optics>
+				<Matte color>0.4, 0.5, 0.7, 0.05</Matte color>
+				<Gloss color>0.8, 1.0, 0.7, 0.95</Gloss color>
+				<Opacity>0.17</Opacity>
+			</Optics>
+			<Refractive index>1.55</Refractive index>
+			<Sphere>
+				<Ray>0.72</Ray>
+			</Sphere>
+		</Solid Object>
+	</Object>
+	<Object>
+		<Coords>0.0, 0.0, -17.0</Coords>
+		<Solid Object>
+			<Optics>
+				<Matte color>0.4, 0.5, 0.7, 0.05</Matte color>
+				<Gloss color>0.8, 1.0, 0.7, 0.95</Gloss color>
+				<Opacity>0.17</Opacity>
+			</Optics>
+			<Refractive index>1.55</Refractive index>
+			<Sphere>
+				<Ray>0.72</Ray>
+			</Sphere>
+		</Solid Object>
+	</Object>
+	<Object>
+		<Coords>1.8, 0.0, -17.0</Coords>
+		<Solid Object>
+			<Optics>
+				<Matte color>0.4, 0.5, 0.7, 0.05</Matte color>
+				<Gloss color>0.8, 1.0, 0.7, 0.95</Gloss color>
+				<Opacity>0.17</Opacity>
+			</Optics>
+			<Refractive index>1.55</Refractive index>
+			<Sphere>
+				<Ray>0.72</Ray>
+			</Sphere>
+		</Solid Object>
+	</Object>
+	<Object>
+		<Coords>-0.35, 0.1, -20.0</Coords>
+		<Solid Object>
+			<RotateZ>11.0</RotateZ>
+			<RotateX>-62.0</RotateX>
+			<Refractive index>1.55</Refractive index>
+			<Solid Object Reorientable>
+				<ChessBoard>
+					<InnerSize>4.0</InnerSize>
+					<BorderX>1.0</BorderX>
+					<BorderY>1.0</BorderY>
+					<Thickness>0.25</Thickness>
+					<LightSquareColor>0.75, 0.7, 0.1</LightSquareColor>
+					<DarkSquareColor>0.3, 0.3, 0.4</DarkSquareColor>
+					<BorderColor>0.5, 0.3, 0.1</BorderColor>
+				</ChessBoard>
+			</Solid Object Reorientable>
+		</Solid Object>
+	</Object>
+</Objects>
+
+<Scene>
+	<Background color>0, 0, 0</Background color>
+	<Ambiant refraction>1.0</Ambiant refraction>
+	<Zoom>4.5</Zoom>
+	<Antialiasing>3</Antialiasing>
+	<Width>600</Width>
+	<Height>360</Height>
+</Scene>

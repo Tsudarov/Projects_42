@@ -1,0 +1,11 @@
+*~
+*.o
+rt*
+obj
+.nfs.*
+._minilibx_macos
+minilibx_macos/._*
+minilibx_macos/man
+*.a
+#*#
+.#*
