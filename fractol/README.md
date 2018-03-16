@@ -1,4 +1,4 @@
-Fractol:
+Fractol: ( click on the screenshot to acces preview video )
 
 Objectif : This project involves graphically creating pretty fractals.
 
