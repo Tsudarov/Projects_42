@@ -1,5 +1,5 @@
 # Projects_42
-List of the projects i made in the french school 42 (!! Click on screenshot for preview vidéos !!)
+List of the projects i made in the french school 42 (!! Click on screenshots to acces preview vidéos !!)
 
 Fdf (Fil de fer):
 Objectif : This project consists in graphically creating the schematic representation of a terrain in relief
