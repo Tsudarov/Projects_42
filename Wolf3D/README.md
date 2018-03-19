@@ -1,4 +1,4 @@
-# Wolf3D
+# Wolf3D . (clic on screenshot for a preview)
 
 ## Objectif, simulate a fps environment, with raycast.
 
