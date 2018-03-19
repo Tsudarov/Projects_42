@@ -13,4 +13,3 @@
 [![Watch the video](https://user-images.githubusercontent.com/15171682/37592928-8adeb056-2b70-11e8-9983-907257ad29de.png)](https://www.youtube.com/watch?v=XjREYN3uGF8&feature=youtu.be)
 
 [![Watch the video](https://user-images.githubusercontent.com/15171682/37592930-8af1092c-2b70-11e8-8fb0-e9c94e91a88a.png)](https://www.youtube.com/watch?v=XjREYN3uGF8&feature=youtu.be)
-
